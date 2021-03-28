@@ -8,8 +8,7 @@ const keyPair = new bsv.KeyPair(privateKey, publicKey)
 
 // prepare request
 const domain = "https://apiv2.metasv.com"
-// todo replace this with paid apis
-const path = "/block/000000000000000007dded8e2a733c654a006520409cdb0d6cdf642a1328c330"
+const path = "/xpubs"
 const timestamp = Date.now()
 const nonce = Math.random().toString().substr(2, 10);
 const message = path + '_' + timestamp + '_' + nonce

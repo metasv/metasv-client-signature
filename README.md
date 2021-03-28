@@ -76,6 +76,7 @@ cd metasv-client-signature
 
 npm install
 
+# 执行之前确保已经注册过public key，修改源码中private key
 node index.js
 
 ```
